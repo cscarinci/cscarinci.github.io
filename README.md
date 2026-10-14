@@ -23,3 +23,7 @@ python -m http.server -d _site 8000
 ## GitHub Pages
 
 Repository `cscarinci/cscarinci.github.io`, branch `main`. Settings > Pages > Source: GitHub Actions.
+
+## License
+
+The code (`build.py`, templates, stylesheet) is released under the MIT License (see `LICENSE`). The content (text, data files, photo) is copyright Carlos Scarinci and is not covered by it.
