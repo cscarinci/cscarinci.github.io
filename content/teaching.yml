@@ -1,0 +1,71 @@
+# Fields: term, code (optional), title, where, notes (optional URL of lecture notes).
+# "current" courses are shown on the home page; "previous" is newest first.
+
+current:
+  - term: Fall 2026
+    code: BS101
+    title: Multivariable Calculus
+    where: School of Undergraduate Studies, DGIST
+    notes: https://cscarinci.github.io/bs101-fall26/
+  - term: Fall 2026
+    code: BS202
+    title: Introduction to Probability and Mathematical Statistics
+    where: School of Undergraduate Studies, DGIST
+    notes: https://cscarinci.github.io/bs202-fall26/
+  - term: Fall 2026
+    code: PHY309
+    title: Differential Geometry and General Relativity
+    where: School of Undergraduate Studies, DGIST
+    notes: https://cscarinci.github.io/phy309-fall26/
+
+previous:
+  - term: Spring 2026
+    title: Engineering Mathematics I
+    where: School of Undergraduate Studies, DGIST
+  - term: Spring 2026
+    title: Introduction to Probability and Mathematical Statistics
+    where: School of Undergraduate Studies, DGIST
+  - term: Fall 2025
+    title: Engineering Mathematics I
+    where: School of Undergraduate Studies, DGIST
+  - term: Fall 2025
+    title: Differential Geometry and General Relativity
+    where: School of Undergraduate Studies, DGIST
+  - term: Spring 2025
+    title: Engineering Mathematics I
+    where: School of Undergraduate Studies, DGIST
+  - term: Fall 2024
+    title: Engineering Mathematics I
+    where: School of Undergraduate Studies, DGIST
+  - term: Fall 2024
+    title: Differential Geometry and General Relativity
+    where: School of Undergraduate Studies, DGIST
+  - term: Spring 2024
+    title: Engineering Mathematics I
+    where: School of Undergraduate Studies, DGIST
+  - term: Fall 2023
+    title: Multivariable Calculus
+    where: School of Undergraduate Studies, DGIST
+  - term: Fall 2023
+    title: Engineering Mathematics I
+    where: School of Undergraduate Studies, DGIST
+  - term: Spring 2023
+    title: Engineering Mathematics I
+    where: School of Undergraduate Studies, DGIST
+  - term: Spring 2022
+    title: Multivariable Calculus
+    where: Department of Mathematics Education, Ewha Womans University
+  - term: Spring 2013
+    title: Hyperbolic Geometry (with Catherine Meusburger)
+    where: Department Mathematik, FAU Erlangen-Nürnberg
+  - term: Spring 2009
+    title: Calculus and Analytic Geometry I-A
+    where: Instituto de Matemática e Estatística, UFRGS
+
+mentoring:
+  - term: 2024-
+    title: Undergraduate research mentoring, AGSTA Basic Research Laboratory
+    where: School of Undergraduate Studies, DGIST
+  - term: 2025
+    title: Undergraduate Group Research Project (UGRP) advisor
+    where: School of Undergraduate Studies, DGIST

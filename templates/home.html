@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block main %}
+
+<div class="masthead">
+  <div>
+    <h1>{{ site.name }}</h1>
+    <p class="role"><span class="l1"><span>{{ site.title }}</span><span class="bullet">&bull;</span><span>{{ site.department }}</span></span><span class="l2"><a href="{{ site.affiliation_url }}">{{ site.affiliation }}</a></span></p>
+  </div>
+  {% if site.photo %}<img class="portrait" src="{{ site.photo }}" alt="{{ site.name }}" width="260" height="325">{% endif %}
+</div>
+
+<div class="contact">
+  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  <p class="profiles">{% for l in site.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+</div>
+
+<div class="prose intro">{{ intro }}</div>
+
+<h2>Research interests</h2>
+<div class="prose">{{ research }}</div>
+
+<h2>Teaching, {{ teaching.current[0].term }}</h2>
+<dl class="rows">
+{% for c in teaching.current %}
+  <dt>{{ c.code }}</dt>
+  <dd>{% if c.notes %}<a href="{{ c.notes }}">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</dd>
+{% endfor %}
+</dl>
+
+{% if site.projects %}
+<h2>Current projects</h2>
+<dl class="rows projects">
+{% for p in site.projects %}
+  <dt></dt>
+  <dd><strong>{{ p.title|md }}</strong><span class="terms">{{ p.text|md }}</span></dd>
+{% endfor %}
+</dl>
+{% endif %}
+
+{% endblock %}

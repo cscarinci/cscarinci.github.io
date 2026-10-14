@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}CV - {{ site.name }}{% endblock %}
+{% block main %}
+
+<h1>Curriculum vitae</h1>
+{% if site.cv_pdf %}<p class="lede"><a href="{{ site.cv_pdf }}">PDF</a></p>{% endif %}
+
+<h2>Appointments</h2>
+<dl class="pubs">
+{% for e in site.positions %}
+  <dt>{{ e.years }}</dt>
+  <dd>{{ e.title }}<span class="ref">{% if e.url %}<a href="{{ e.url }}">{{ e.where }}</a>{% else %}{{ e.where }}{% endif %}</span></dd>
+{% endfor %}
+</dl>
+
+<h2>Education</h2>
+<dl class="pubs">
+{% for e in site.education %}
+  <dt>{{ e.years }}</dt>
+  <dd>{{ e.title }}<span class="ref">{% if e.url %}<a href="{{ e.url }}">{{ e.where }}</a>{% else %}{{ e.where }}{% endif %}</span>{% if e.thesis %}<span class="ref">Thesis: <em>{{ e.thesis }}</em></span>{% endif %}{% if e.advisor %}<span class="ref">Advisor: {{ e.advisor }}</span>{% endif %}</dd>
+{% endfor %}
+</dl>
+
+<h2>Grants and awards</h2>
+<dl class="pubs">
+{% for e in site.awards %}
+  <dt>{{ e.years }}</dt>
+  <dd>{{ e.title }}<span class="ref">{% if e.url %}<a href="{{ e.url }}">{{ e.where }}</a>{% else %}{{ e.where }}{% endif %}</span>{% if e.number %}<span class="ref">{{ e.number }}</span>{% endif %}</dd>
+{% endfor %}
+</dl>
+
+<h2>Teaching</h2>
+{% for g in teaching.grouped %}
+<p class="where-head">{{ g.where }}</p>
+<dl class="rows courses-grouped">
+{% for r in g.rows %}<dt></dt><dd>{{ r.title }}<span class="terms">{{ r.terms|join(", ") }}</span></dd>{% endfor %}
+</dl>
+{% endfor %}
+<p class="where-head">Mentoring</p>
+<dl class="rows">
+{% for c in teaching.mentoring %}<dt>{{ c.term }}</dt><dd>{{ c.title }}<span class="terms">{{ c.where }}</span></dd>{% endfor %}
+</dl>
+
+<h2>Organization of events</h2>
+<dl class="pubs">
+{% for e in site.events %}
+  <dt>{{ e.years }}</dt>
+  <dd>{% if e.url %}<a href="{{ e.url }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}<span class="ref">{{ e.where }}</span>{% if e.with %}<span class="with">with {{ e.with }}</span>{% endif %}</dd>
+{% endfor %}
+</dl>
+
+<h2>Memberships</h2>
+<dl class="pubs">
+{% for e in site.memberships %}
+  <dt>{{ e.years }}</dt>
+  <dd>{{ e.title }}<span class="ref">{% if e.url %}<a href="{{ e.url }}">{{ e.where }}</a>{% else %}{{ e.where }}{% endif %}</span></dd>
+{% endfor %}
+</dl>
+
+{% endblock %}

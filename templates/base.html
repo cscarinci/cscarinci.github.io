@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.name }}{% endblock %}</title>
+<meta name="description" content="{{ site.name }}, {{ site.title }}, {{ site.affiliation }}.">
+<link rel="stylesheet" href="/static/style.css">
+{% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{% endif %}</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="name" href="/">{{ site.name }}</a>
+    <nav aria-label="Main">
+      {% for id, href, label in nav %}<a href="{{ href }}"{% if id == page %} aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+{% block main %}{% endblock %}
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>{{ site.name }}<br>{{ site.department }}, {{ site.affiliation }}<br>{% for line in site.address %}{{ line }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+  </div>
+</footer>
+
+</body>
+</html>

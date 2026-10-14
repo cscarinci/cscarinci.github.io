@@ -1,0 +1,158 @@
+name: Carlos Scarinci
+title: Assistant Professor
+affiliation: Daegu Gyeongbuk Institute of Science and Technology
+affiliation_url: https://www.dgist.ac.kr/en/
+department: School of Undergraduate Studies
+address:
+  - 333 Techno jungang-daero, Hyeonpung-eup, Dalseong-gun
+  - Daegu 42988, Republic of Korea
+email: cscarinci@dgist.ac.kr
+
+# GoatCounter site code; omit to disable page-view counting.
+goatcounter: cscarinci
+
+# Optional link to a PDF version of the CV, e.g. /static/cv.pdf.
+# cv_pdf: /static/cv.pdf
+
+# Optional portrait (4:5 crop), e.g. /static/photo.jpg.
+photo: /static/photo.jpg
+
+links:
+  - label: arXiv
+    url: https://arxiv.org/a/scarinci_c_1
+  - label: ORCID
+    url: https://orcid.org/0000-0003-1385-9714
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=PN7x6ygAAAAJ
+  - label: Math Genealogy
+    url: https://www.mathgenealogy.org/id.php?id=264422
+
+positions:
+  # Fields: years, title, where, url (optional).
+  - years: 2026-
+    title: Assistant Professor
+    where: School of Undergraduate Studies, DGIST
+    url: https://www.dgist.ac.kr/en/
+  - years: 2023-2026
+    title: Visiting Professor
+    where: Department of Liberal Arts, DGIST
+    url: https://www.dgist.ac.kr/en/
+  - years: 2021-2023
+    title: Research Professor
+    where: Institute of Mathematical Sciences, Ewha Womans University
+    url: http://cms.ewha.ac.kr/user/imseng/
+  - years: 2020-2021
+    title: Research Fellow
+    where: Institute of Mathematical Sciences, Ewha Womans University
+    url: http://cms.ewha.ac.kr/user/imseng/
+  - years: 2016-2020
+    title: Research Fellow
+    where: Center for Mathematical Challenges, Korea Institute for Advanced Study
+    url: https://www.kias.re.kr/
+  - years: 2014-2016
+    title: Research Fellow
+    where: School of Mathematical Sciences, The University of Nottingham
+    url: https://www.nottingham.ac.uk/mathematics/index.aspx
+  - years: 2012-2014
+    title: Research Fellow
+    where: Department Mathematik, FAU Erlangen-Nürnberg
+    url: https://en.www.math.fau.de/
+  - years: 2009
+    title: Professor Substituto
+    where: Instituto de Matemática, UFRGS
+    url: https://www.ufrgs.br/ime/
+
+education:
+  # Fields: years, title, where, url (optional), thesis (optional), advisor (optional).
+  - years: 2009-2012
+    title: Ph.D. in Mathematics
+    where: The University of Nottingham
+    url: https://www.nottingham.ac.uk
+    thesis: The phase space of 2+1 AdS gravity
+    advisor: Kirill Krasnov
+  - years: 2007-2009
+    title: M.Sc. in Mathematics
+    where: Universidade Federal do Rio Grande do Sul
+    url: http://www.ufrgs.br
+    thesis: Uma demonstração do teorema da singularidade de Hawking
+    advisor: Luiz Fernando Carvalho da Rocha
+  - years: 2003-2007
+    title: B.Sc. in Physics
+    where: Universidade Federal do Rio Grande do Sul
+    url: http://www.ufrgs.br
+
+awards:
+  # Fields: years, title, where (funder or institution), url (optional), number (optional).
+  - years: 2024-
+    title: Global Basic Research Laboratory
+    where: National Research Foundation of Korea
+    url: https://www.nrf.re.kr/eng/main/
+    number: RS-2024-00414849
+  - years: 2019-2023
+    title: Basic Research Grant
+    where: National Research Foundation of Korea
+    url: https://www.nrf.re.kr/eng/main/
+    number: 2019R1F1A1060827
+  - years: 2016-2020
+    title: KIAS Individual Grant
+    where: Center for Mathematical Challenges, Korea Institute for Advanced Study
+    number: SP036102
+  - years: 2009-2012
+    title: Ph.D. Research Scholarship
+    where: School of Mathematical Sciences, The University of Nottingham
+  - years: 2007-2009
+    title: CNPq M.Sc. Fellowship
+    where: CNPq
+    url: https://www.gov.br/cnpq/pt-br
+  - years: 2005-2007
+    title: CNPq/PIBIC Undergraduate Research Fellowship
+    where: CNPq
+  - years: 2004-2005
+    title: BIC/UFRGS Undergraduate Research Fellowship
+    where: UFRGS
+
+memberships:
+  - years: 2024-2025
+    title: Associate Member
+    where: School of Mathematics, Korea Institute for Advanced Study
+    url: https://www.kias.re.kr/
+
+events:
+  # Fields: years, title, url (optional), where, with (co-organizers).
+  - years: 2026
+    title: AGSTA Conference on Tensors and Related Topics
+    url: https://sites.google.com/view/agsta-conf-2026
+    where: Pusan National University, Busan
+    with: K. Han, T. Hudson, Y. Kim
+  - years: 2026
+    title: 2026 AGSTA BRL Workshop
+    where: Gangneung
+    with: K. Han, T. Hudson, Y. Kim
+  - years: 2025
+    title: AGSTA Summer School on Tensors
+    where: Pusan National University, Busan
+    with: K. Han, T. Hudson, Y. Kim
+  - years: 2025
+    title: AGSTA BRL Kickoff Workshop
+    where: Geoje Island
+    with: K. Han, T. Hudson, Y. Kim
+  - years: 2024
+    title: DGIST Math Seminar
+    where: Daegu Gyeongbuk Institute of Science and Technology
+    with: K. Han, T. Hudson
+  - years: 2020
+    title: Three W's Seminar
+    where: Korea Institute for Advanced Study, Seoul
+    with: S. Bhamidi, J.-E. Bourgine, S. Lee, M. Sarkis
+  - years: 2015
+    title: Geometry of Graviton Scattering Amplitudes
+    where: University of Nottingham
+    with: C.-H. Fu, K. Krasnov, L. Mason
+  - years: 2014
+    title: Third Erlangen Fall School on Quantum Geometry
+    where: FAU Erlangen-Nürnberg
+    with: C. Meusburger, K.-H. Neeb
+
+projects:
+  - title: "[AGSTA](https://sites.google.com/view/brl-agsta)"
+    text: "Algebra and Geometry of Spaces of Tensors, and Applications.<br>Global Basic Research Laboratory, National Research Foundation of Korea.<br>With Kangjin Han, Thomas Hudson and Yeongrak Kim."

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Research - {{ site.name }}{% endblock %}
+{% block main %}
+
+<h1>Research</h1>
+
+{% if pubs.preprints %}
+<h2>Preprints</h2>
+<dl class="pubs">
+{% for p in pubs.preprints %}
+  <dt>{{ p.ref|year }}</dt>
+  <dd><a href="{{ p.url }}">{{ p.title }}</a>{% if p.with %}<span class="with">with {{ p.with }}</span>{% endif %}<span class="ref">{{ p.ref }}</span></dd>
+{% endfor %}
+</dl>
+{% endif %}
+
+<h2>Publications</h2>
+<dl class="pubs">
+{% for p in pubs.articles %}
+  <dt>{% if loop.first or p.ref|year != pubs.articles[loop.index0 - 1].ref|year %}{{ p.ref|year }}{% endif %}</dt>
+  <dd><a href="{{ p.url }}">{{ p.title }}</a>{% if p.with %}<span class="with">with {{ p.with }}</span>{% endif %}<span class="ref">{{ p.ref }}</span></dd>
+{% endfor %}
+</dl>
+
+<h2>Organization of events</h2>
+<dl class="pubs">
+{% for e in site.events %}
+  <dt>{{ e.years }}</dt>
+  <dd>{% if e.url %}<a href="{{ e.url }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}<span class="ref">{{ e.where }}</span>{% if e.with %}<span class="with">with {{ e.with }}</span>{% endif %}</dd>
+{% endfor %}
+</dl>
+
+{% endblock %}

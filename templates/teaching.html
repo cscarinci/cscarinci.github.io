@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Teaching - {{ site.name }}{% endblock %}
+{% block main %}
+
+<h1>Teaching</h1>
+
+<h2>{{ teaching.current[0].term }}</h2>
+<p class="where-head">{{ teaching.current[0].where }}</p>
+<dl class="rows">
+{% for c in teaching.current %}
+  <dt>{{ c.code }}</dt>
+  <dd>{% if c.notes %}<a href="{{ c.notes }}">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</dd>
+{% endfor %}
+</dl>
+
+<h2>Previous courses</h2>
+{% for g in teaching.grouped_previous %}
+<p class="where-head">{{ g.where }}</p>
+<dl class="rows courses-grouped">
+{% for r in g.rows %}<dt></dt><dd>{{ r.title }}<span class="terms">{{ r.terms|join(", ") }}</span></dd>{% endfor %}
+</dl>
+{% endfor %}
+
+{% endblock %}

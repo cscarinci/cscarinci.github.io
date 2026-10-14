@@ -1,0 +1,1 @@
+I am a mathematician working on differential geometry and mathematical physics: moduli spaces of three-dimensional spacetimes, their quantization, and formulations of gravity as a gauge theory. Before DGIST I was at Ewha Womans University, the Korea Institute for Advanced Study, the University of Nottingham, and FAU Erlangen-Nürnberg.

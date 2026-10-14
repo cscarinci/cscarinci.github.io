@@ -1,0 +1,75 @@
+# Newest first. Fields: title, with (co-authors), ref (journal reference or arXiv id), url.
+# Entries under "preprints" are listed above the published articles; leave the list empty ([]) if there are none.
+
+preprints: []
+
+articles:
+  - title: A quantization of moduli spaces of 3-dimensional gravity
+    with: Hyun Kyu Kim
+    ref: Commun. Math. Phys. 405, 144 (2024)
+    url: https://doi.org/10.1007/s00220-024-05012-8
+
+  - title: Lightlike and ideal tetrahedra
+    with: Catherine Meusburger
+    ref: Geom. Dedicata 216, 26 (2022)
+    url: https://doi.org/10.1007/s10711-022-00687-6
+
+  - title: Einstein gravity as a gauge theory for the conformal group
+    with: Yannick Herfray
+    ref: Class. Quantum Grav. 39, 025011 (2022)
+    url: https://doi.org/10.1088/1361-6382/ac3e53
+
+  - title: A 4D gravity theory and G2-holonomy manifolds
+    with: Yannick Herfray, Kirill Krasnov and Yuri Shtanov
+    ref: Adv. Theor. Math. Phys. 22 (2018) 8, 2001-2034
+    url: https://doi.org/10.4310/ATMP.2018.v22.n8.a5
+
+  - title: Symplectic Wick rotations between moduli spaces of 3-manifolds
+    with: Jean-Marc Schlenker
+    ref: Ann. Sc. Norm. Super. Pisa Cl. Sci. 18 (2018) 3, 781-829
+    url: https://doi.org/10.2422/2036-2145.201701_004
+
+  - title: 6D interpretation of 3D gravity
+    with: Yannick Herfray and Kirill Krasnov
+    ref: Class. Quantum Grav. 34, 045007 (2017)
+    url: https://doi.org/10.1088/1361-6382/aa5727
+
+  - title: Asymptotically hyperbolic connections
+    with: Joel Fine, Yannick Herfray and Kirill Krasnov
+    ref: Class. Quantum Grav. 33, 185011 (2016)
+    url: https://doi.org/10.1088/0264-9381/33/18/185011
+
+  - title: Generalised shear coordinates on the moduli spaces of three-dimensional spacetimes
+    with: Catherine Meusburger
+    ref: J. Differential Geom. 103 (2016) 3, 425-474
+    url: https://doi.org/10.4310/jdg/1468517501
+
+  - title: "Pure connection formalism for gravity: recursion relations"
+    with: Gianluca Delfino and Kirill Krasnov
+    ref: J. High Energ. Phys. 2015, 120 (2015)
+    url: https://doi.org/10.1007/JHEP03(2015)120
+
+  - title: "Pure connection formalism for gravity: Feynman rules and the graviton-graviton scattering"
+    with: Gianluca Delfino and Kirill Krasnov
+    ref: J. High Energ. Phys. 2015, 119 (2015)
+    url: https://doi.org/10.1007/JHEP03(2015)119
+
+  - title: "Pure connection formalism for gravity: linearized theory"
+    with: Gianluca Delfino and Kirill Krasnov
+    ref: J. High Energ. Phys. 2015, 118 (2015)
+    url: https://doi.org/10.1007/JHEP03(2015)118
+
+  - title: Weighted Laplacians, cocycles and recursion relations
+    with: Kirill Krasnov
+    ref: J. High Energ. Phys. 2013, 040 (2013)
+    url: https://doi.org/10.1007/JHEP11(2013)040
+
+  - title: The universal phase space of AdS3 gravity
+    with: Kirill Krasnov
+    ref: Commun. Math. Phys. 322, 167-205 (2013)
+    url: https://doi.org/10.1007/s00220-012-1655-0
+
+  - title: A unified theory of non-linear electrodynamics and gravity
+    with: Alexander Torres-Gomez and Kirill Krasnov
+    ref: Phys. Rev. D 83, 025023 (2011)
+    url: https://doi.org/10.1103/PhysRevD.83.025023
